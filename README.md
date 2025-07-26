@@ -92,8 +92,6 @@ pothole_id, area_pixels, area_cm2, bounding_box
 - Label and size each pothole
 - If calibrated, compute:
 ```bash
-Copy
-Edit
 area_cm² = area_pixels / (pixel_to_cm_ratio^2)
 ```
 ## 📘 Example
@@ -107,6 +105,6 @@ road2_data.csv:
 This project is released under the MIT License.
 
 ## 🙋‍♂️ Author
-melo
+
 GitHub: [@hi-riddhi](https://github.com/hi-riddhi)
 
