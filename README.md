@@ -61,7 +61,6 @@ pip install opencv-python
 - Place images in the input_images/ folder.
 - Run the script:
 ```bash
-copy
 python pothole_detector_with_calibration.py
 ```
 - When prompted: Click two points in the image with a known real-world distance.
