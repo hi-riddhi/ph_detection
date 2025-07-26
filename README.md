@@ -8,7 +8,7 @@ This project automatically detects potholes in road surface images using image p
 
 | Input Image | Output with Bounding Boxes |
 |-------------|----------------------------|
-| ![Input1](input_images/road1.jpg) | ![Output1](outputs/image1.jpg) |
+| ![Input1](input_images/image1.jpg) | ![Output1](outputs/image1.jpg) |
 
 ---
 
@@ -37,13 +37,13 @@ This project automatically detects potholes in road surface images using image p
 ---
 
 ## 🗂️ Folder Structure
-
+```bash
 pothole-detection/
 ├── input_images/ # Input road surface images
 ├── outputs/ # Annotated images + CSV data
 ├── pothole_detector_with_calibration.py # Main script
 └── README.md # Project documentation
-
+```
 ---
 
 ## 🛠️ Requirements
@@ -96,7 +96,7 @@ Copy
 Edit
 area_cm² = area_pixels / (pixel_to_cm_ratio^2)
 ```
-📘 Example
+## 📘 Example
 yaml
 Copy
 Edit
@@ -105,9 +105,9 @@ road2_data.csv:
 - Pothole 1: 1500 px, 19.80 cm²
 - Pothole 2: 2200 px, 29.04 cm²
 ...
-🧾 License
+## 🧾 License
 This project is released under the MIT License.
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 melo
 GitHub: @hi-riddhi
