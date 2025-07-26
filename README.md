@@ -98,8 +98,6 @@ area_cm² = area_pixels / (pixel_to_cm_ratio^2)
 ```
 ## 📘 Example
 yaml
-Copy
-Edit
 Detected 12 potholes in road2.jpg
 road2_data.csv:
 - Pothole 1: 1500 px, 19.80 cm²
@@ -110,4 +108,5 @@ This project is released under the MIT License.
 
 ## 🙋‍♂️ Author
 melo
-GitHub: @hi-riddhi
+GitHub: [@hi-riddhi](https://github.com/hi-riddhi)
+
